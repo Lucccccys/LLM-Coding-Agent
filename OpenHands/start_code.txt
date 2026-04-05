@@ -1,0 +1,11 @@
+python evaluation/benchmarks/swe_bench/run_infer.py \
+  --config-file config.toml \
+  --llm-config eval_llama_compat \
+  --mode swe \
+  --dataset "princeton-nlp/SWE-bench_Verified" \
+  --split test \
+  --eval-num-workers 1 \
+  --eval-output-dir ~/coding_agent_project/experiments/oh_runs/llama31_8b_32k_verified \
+  --agent-cls CodeActAgent \
+  --max-iterations 20 \
+  --log-level INFO

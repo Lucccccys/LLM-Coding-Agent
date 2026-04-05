@@ -1,0 +1,10 @@
+# 敏感配置（可能含 API Key）
+OpenHands/config.toml
+OpenHands/config_deepseek.toml
+OpenHands/config_gemini.toml
+
+# 依赖和缓存
+OpenHands/venv/
+OpenHands/node_modules/
+**/__pycache__/
+**/*.pyc
